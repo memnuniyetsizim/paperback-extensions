@@ -15785,7 +15785,7 @@ var _Sources = (() => {
   // src/MangaFox/MangaFox.ts
   var FF_DOMAIN = "https://fanfox.net";
   var MangaFoxInfo = {
-    version: "3.0.7",
+    version: "3.0.8",
     name: "MangaFox",
     icon: "icon.png",
     author: "Netsky (fixed by mali)",
@@ -15821,11 +15821,11 @@ var _Sources = (() => {
       });
     }
     getMangaShareUrl(mangaId2) {
-      return `${FF_DOMAIN}/manga/${mangaId2}`;
+      return `${FF_DOMAIN}/manga/${mangaId2}/`;
     }
     async getMangaDetails(mangaId2) {
       const request = App.createRequest({
-        url: `${FF_DOMAIN}/manga/${mangaId2}`,
+        url: `${FF_DOMAIN}/manga/${mangaId2}/`,
         method: "GET"
       });
       const response = await this.requestManager.schedule(request, 1);
@@ -15834,7 +15834,7 @@ var _Sources = (() => {
     }
     async getChapters(mangaId2) {
       const request = App.createRequest({
-        url: `${FF_DOMAIN}/manga/${mangaId2}`,
+        url: `${FF_DOMAIN}/manga/${mangaId2}/`,
         method: "GET"
       });
       const response = await this.requestManager.schedule(request, 1);
@@ -15864,7 +15864,7 @@ var _Sources = (() => {
       let param = "";
       switch (homepageSectionId) {
         case "hot_release":
-          param = "hot";
+          param = "hot/";
           break;
         case "new_manga":
           param = `directory/${page}.html?news`;
