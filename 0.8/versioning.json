@@ -1,0 +1,18 @@
+{
+  "buildTime": "2026-11-27T00:00:00Z",
+  "sources": [
+    {
+      "id": "MangaFox",
+      "name": "MangaFox",
+      "author": "Netsky (fixed by mali)",
+      "desc": "Extension that pulls manga from fanfox.net",
+      "website": "https://github.com/TheNetsky",
+      "contentRating": "MATURE",
+      "version": "3.0.7",
+      "icon": "icon.png",
+      "tags": [],
+      "websiteBaseURL": "https://fanfox.net",
+      "intents": 21
+    }
+  ]
+}
