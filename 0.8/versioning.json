@@ -13,6 +13,19 @@
       "tags": [],
       "websiteBaseURL": "https://fanfox.net",
       "intents": 21
+    },
+    {
+      "id": "MangaKatana",
+      "name": "MangaKatana",
+      "author": "Netsky",
+      "desc": "Extension that pulls manga from mangakatana.com",
+      "website": "https://github.com/TheNetsky",
+      "contentRating": "MATURE",
+      "version": "3.0.3",
+      "icon": "icon.png",
+      "tags": [],
+      "websiteBaseURL": "https://mangakatana.com",
+      "intents": 21
     }
   ]
 }
